@@ -35,7 +35,7 @@
     "cors": "^2.8.5",
     "create-react-app": "^5.0.1",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "passport": "^0.6.0",
