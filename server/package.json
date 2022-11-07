@@ -4,7 +4,7 @@
   "description": "A simple and practical telephone book",
   "main": "index.js",
   "scripts": {
-  
+    "build": "echo 'hello build'",
     "dev": "nodemon index.js",
     "start": "node index.js",
     "migrations:generate": "sequelize-cli  migration:generate --name",
