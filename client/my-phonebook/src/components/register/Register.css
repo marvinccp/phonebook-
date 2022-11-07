@@ -1,0 +1,91 @@
+.register-input {
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    margin: 7px 0 7px 0;
+    text-indent: 20px;
+}
+
+.register-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    margin: 20px 0 7px 0;
+    background-color: rgba(61, 197, 63, 0.881);
+    color: white;
+    cursor: pointer;
+}
+
+.register-button:hover {
+
+    background-color: rgba(61, 197, 63, 0.98);
+    color: white;
+    cursor: pointer;
+    width: 202px;
+
+}
+
+.register-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 390px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgba(221, 219, 219, 0.452);
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(100, 100, 100, 0.085);
+}
+
+.register-form-container {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.register-container-principal h1 {
+    font-size: 25px;
+    color: rgb(44, 108, 140);
+    margin: 0 0 15px 0;
+}
+
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    height: 30px;
+    margin: 0 0 12px 0;
+    width: 300px;
+}
+
+.error-container h5 {
+    font-size: 15px;
+}
+
+.register-container h5 {
+
+    margin: 15px 0 0 0;
+    color: rgb(44, 108, 140);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.register-container h5:hover {
+
+    background-color: rgba(74, 179, 232, 0.93);
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+version: '3.3'
+
+
+services:
+    myPostgres_db:
+      image: postgres:13
+      environment:
+        - POSTGRES_DB=my_sbook
+        - POSTGRES_USER=marvin
+        - POSTGRES_PASSWORD=admin246
+      ports:
+        - 5432:5432
+      volumes:
+        - ./phonebook_postgres_data:/var/lib/postgresql/data
+
+    pgadmin:
+        image: dpage/pgadmin4
+        environment:
+          - PGADMIN_DEFAULT_EMAIL=marvin@mail.com
+          - PGADMIN_DEFAULT_PASSWORD=root123
+        ports:
+          - 5051:80

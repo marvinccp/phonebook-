@@ -1,0 +1,42 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    background-color:rgb(63, 156, 202);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: rgb(76, 76, 76);
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 2px 8px;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background: #e3e3e3;
+}
+
+.navbar a.active {
+    background: #f8f8f8;
+    color:rgb(44, 108, 140);
+}
+.contacts-nav-link{
+    margin: 0 60px 0 0 ;
+}
+

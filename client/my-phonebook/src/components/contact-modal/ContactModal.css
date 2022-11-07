@@ -1,0 +1,29 @@
+.ModalBackground {
+    background: rgb(235, 235, 235);
+    top: 390px;
+    left: 0;
+    right: 0;
+    bottom: -22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    border-radius: 25px;
+}
+
+@media(min-width: 768px) {
+    .ModalBackground {
+        background: rgba(220, 220, 220, 0.959);
+        top: -10px;
+        left: -10px;
+        right: -10px;
+        bottom: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        position: fixed;
+        border-radius: 25px;
+    }
+}
