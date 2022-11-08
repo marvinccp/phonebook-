@@ -19,7 +19,8 @@ require('./utils/auth/')
 const myapp = express()
 
 myapp.use(express.json())
-const port = 8000
+
+const port = process.env.PORT || 3000
 
 myapp.get('/', (req, res) =>{
   res.send('phonebook server, yeahh!!!!')
